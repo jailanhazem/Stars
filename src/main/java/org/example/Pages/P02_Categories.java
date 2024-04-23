@@ -7,30 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class P02_Categories
 {
-    public P02_Categories(){P
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ageFactory.initElements(Hooks.driver, this);}
+    public P02_Categories(){PageFactory.initElements(Hooks.driver, this);}
 
     @FindBy(xpath = "/html/body/main/div[2]/div/div/div/div[2]/form/div[1]/input")
     public WebElement Email;
